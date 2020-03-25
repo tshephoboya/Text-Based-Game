@@ -3,7 +3,7 @@ from string import ascii_lowercase
 
 possible_escapes = list(ascii_lowercase)
 rooms = [ ['room1', 'air', 'The air is being sucked out'],
-          ['room2', 'fire', 'The room get hotter],
+          ['room2', 'fire', 'The room get hotter'],
           ['room3', 'ceiling', 'The ceiling is caving in'],
           ['room4', 'snake', 'You are stuck in a room with a snake'],
           ['room5', 'Carbon Monoxide', 'The room is filling with carbon monoxide']]
