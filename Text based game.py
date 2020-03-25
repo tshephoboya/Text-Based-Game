@@ -18,14 +18,14 @@ class room:
     def guess_safety(self):
         count = 10
         while count > 0:
-            count -= 1
+            count -= a
             if input('Guess escape mode: ').lower() != self.safety:
                 print("The guess is wrong.", count, 'Guesses Left')
             else:
                 print("Hoooray, Your guess is correct!!")
                 return True
         else:
-            print("Print you are out off guesses", 'You have DIED :)')
+            print("You are out off guesses", 'You have DIED :)')
             return False
         
 
