@@ -20,7 +20,7 @@ class room:
         while count > 0:
             count -= a
             if input('Guess escape mode: ').lower() != self.safety:
-                print("The guess is wrong.", count, 'Guesses Left')
+                print("The guess is wrong {} Guesses Left".format(count))
             else:
                 print("Hoooray, Your guess is correct!!")
                 return True
